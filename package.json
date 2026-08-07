@@ -1,0 +1,63 @@
+{
+  "name": "tradwife",
+  "version": "1.0.0",
+  "description": "Local, persistent and auditable memory for AI coding agents. Syncs across all your machines through your own private GitHub repo. Claude Code, Codex, Cursor, Gemini CLI.",
+  "type": "module",
+  "bin": {
+    "tradwife": "bin/tradwife.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "install.sh",
+    "README.md",
+    "LICENSE",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "GEMINI.md",
+    "SETUP-AGENT.md",
+    "COMO-FUNCIONA.md"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "e2e": "node test/e2e.mjs",
+    "check": "node --test test/*.test.js && node test/e2e.mjs && node test/sync.mjs && node test/multiagent.mjs && node test/github.mjs",
+    "sync-test": "node test/sync.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "ai-memory",
+    "agent-memory",
+    "persistent-memory",
+    "llm-memory",
+    "context-engineering",
+    "ai-agents",
+    "developer-tools",
+    "cli",
+    "local-first",
+    "memory-layer",
+    "agent-hooks",
+    "ai-coding-assistant",
+    "multi-machine-sync",
+    "prompt-engineering",
+    "zero-dependencies",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ma-nucho-pro/tradwife.git"
+  },
+  "author": "Roberto Manuel Jara Peche (https://github.com/ma-nucho-pro)",
+  "homepage": "https://github.com/ma-nucho-pro/tradwife#readme",
+  "bugs": {
+    "url": "https://github.com/ma-nucho-pro/tradwife/issues"
+  }
+}

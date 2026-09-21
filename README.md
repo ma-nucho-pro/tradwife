@@ -1,8 +1,8 @@
+<!-- manucho-readme-banner:start -->
 <p align="center">
-  <a href="https://ibb.co/HDYGBwHt">
-    <img src="https://i.ibb.co/DDkwzcR9/Chat-GPT-Image-6-ago-2026-11-47-58-p-m-1.png" alt="tradwife" width="320" />
-  </a>
+  <img src="assets/readme/banner.svg" alt="TRADWIFE project overview" width="100%">
 </p>
+<!-- manucho-readme-banner:end -->
 
 <h1 align="center">tradwife</h1>
 
